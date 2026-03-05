@@ -52,7 +52,15 @@ def main():
 
     processed = Path(args.processed_dir)
     news_path = processed / "news" / "news_cleaned.jsonl"
-    ann_path = processed / "announcements" / "announcements_cleaned.jsonl"
+    ann_dir = processed / "announcements"
+    ann_enriched = ann_dir / "announcements_enriched.jsonl"
+    ann_cleaned = ann_dir / "announcements_cleaned.jsonl"
+    if ann_enriched.exists() and ann_cleaned.exists():
+        ann_path = ann_enriched if ann_enriched.stat().st_mtime >= ann_cleaned.stat().st_mtime else ann_cleaned
+    elif ann_enriched.exists():
+        ann_path = ann_enriched
+    else:
+        ann_path = ann_cleaned
 
     news_docs = list(read_jsonl(news_path))
     ann_docs = list(read_jsonl(ann_path))
@@ -75,10 +83,10 @@ def main():
     print("Build retrieval corpus finished.")
     print(f"news_docs={len(news_docs)}")
     print(f"announcement_docs={len(ann_docs)}")
+    print(f"announcement_source={ann_path.name}")
     print(f"total_chunks={len(all_chunks)}")
     print(f"output={out_path}")
 
 
 if __name__ == "__main__":
     main()
-

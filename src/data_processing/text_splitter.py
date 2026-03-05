@@ -61,6 +61,8 @@ def build_chunks_from_doc(doc: Dict, dataset: str, config: ChunkConfig) -> List[
                 "publish_date": doc.get("publish_date", ""),
                 "source": doc.get("source", ""),
                 "stock_code": doc.get("stock_code", ""),
+                "stock_name": doc.get("stock_name", ""),
+                "announcement_type": doc.get("announcement_type", ""),
                 "url": doc.get("url", ""),
             }
         )

@@ -49,14 +49,23 @@ def main():
 
     retriever = HybridRetriever(docs=chunks, text_fields=["title", "text"], bm25_weight=0.7, overlap_weight=0.3)
     results = retriever.retrieve(query=args.query, top_k=args.top_k)
+    if results:
+        applied = results[0].get("entity_filter_applied", False)
+        hits = results[0].get("entity_filter_hits", 0)
+        print(f"entity_filter_applied={applied} entity_filter_hits={hits}")
 
     print(f"query={args.query}")
     print(f"top_k={args.top_k}")
     print("=" * 60)
     for i, item in enumerate(results, 1):
         doc = item["doc"]
-        print(f"#{i} score={item['score']:.4f} bm25={item['bm25_score']:.4f} overlap={item['overlap_score']:.4f}")
+        print(
+            f"#{i} score={item['score']:.4f} bm25={item['bm25_score']:.4f} "
+            f"overlap={item['overlap_score']:.4f} entity={item.get('entity_boost', 0.0):.4f}"
+        )
         print(f"dataset={doc.get('dataset', '')} title={doc.get('title', '')}")
+        if doc.get("stock_name") or doc.get("stock_code"):
+            print(f"stock={doc.get('stock_name','')}({doc.get('stock_code','')})")
         print(f"time={doc.get('publish_time') or doc.get('publish_date')}")
         print(f"url={doc.get('url', '')}")
         print("-" * 60)
@@ -64,4 +73,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-

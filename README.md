@@ -128,6 +128,15 @@ python scripts/clean_and_prepare_data.py \
     --data-dir data/raw \
     --output-dir data/processed
 
+# 公告正文增强（从 pdf_url/url 回填 content）
+python scripts/enrich_announcement_content.py \
+    --processed-dir data/processed \
+    --max-items 1000
+
+# 公告数据可用性诊断（判断增强是否有收益）
+python scripts/diagnose_announcement_data.py \
+    --data-file data/processed/announcements/announcements_cleaned.jsonl
+
 # 构建检索语料（分块）
 python scripts/build_retrieval_corpus.py \
     --processed-dir data/processed \
@@ -238,11 +247,12 @@ MIT License
 
 **已实现**: 新闻/公告采集、统一采集入口、基础字段标准化与 JSONL 落盘
 **已实现（新增）**: 数据清洗去重、稳定 ID、chunk 构建、混合检索基础版
+**已实现（新增）**: 公告采集 cninfo fallback（当主源无链接/正文时自动切换）
 
 **未实现（规划中）**: 向量化建库、向量召回融合、Reranker、Agent、API、前端与系统化测试
 
 **下一步**: 接入向量召回与 reranker，完成最小可用 RAG 闭环
 
-**当前数据限制**: 公告源多数仅有标题、正文缺失；当前检索先基于标题回退，后续会补公告正文抽取。
+**当前数据限制**: 公告源多数仅有标题、正文缺失；已提供正文增强和可用性诊断脚本。若 `enrichable_empty_rows=0`，说明需要切换/补充公告数据源。
 
 查看 [QUICKSTART.md](QUICKSTART.md) 了解详细步骤！
