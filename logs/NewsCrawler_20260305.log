@@ -1,0 +1,92 @@
+2026-03-05 14:38:53.785 | INFO     | src.data_collection.base_crawler:run:109 - 🚀 开始执行 NewsCrawler
+2026-03-05 14:38:53.785 | INFO     | src.data_collection.base_crawler:run:114 - 📥 正在获取数据...
+2026-03-05 14:38:53.786 | INFO     | src.data_collection.news_crawler:fetch:39 - 📰 正在获取东方财富新闻...
+2026-03-05 14:38:53.979 | INFO     | src.data_collection.news_crawler:fetch:46 - ✅ 获取到 10 条东方财富新闻
+2026-03-05 14:38:53.980 | INFO     | src.data_collection.news_crawler:fetch:53 - 📰 正在获取金十数据快讯...
+2026-03-05 14:38:53.980 | WARNING  | src.data_collection.news_crawler:fetch:62 - ⚠️ 获取金十数据失败: module 'akshare' has no attribute 'news_jinshi'
+2026-03-05 14:38:53.982 | INFO     | src.data_collection.news_crawler:fetch:83 - ✅ 筛选后剩余 8 条新闻
+2026-03-05 14:38:53.982 | INFO     | src.data_collection.base_crawler:run:116 - ✅ 获取到 8 条原始数据
+2026-03-05 14:38:53.982 | INFO     | src.data_collection.base_crawler:run:119 - 🔄 正在解析数据...
+2026-03-05 14:38:53.983 | WARNING  | src.data_collection.news_crawler:parse:135 - ⚠️ 解析新闻失败: No module named 'jieba'
+2026-03-05 14:38:53.985 | WARNING  | src.data_collection.news_crawler:parse:135 - ⚠️ 解析新闻失败: No module named 'jieba'
+2026-03-05 14:38:53.988 | WARNING  | src.data_collection.news_crawler:parse:135 - ⚠️ 解析新闻失败: No module named 'jieba'
+2026-03-05 14:38:53.989 | WARNING  | src.data_collection.news_crawler:parse:135 - ⚠️ 解析新闻失败: No module named 'jieba'
+2026-03-05 14:38:53.991 | WARNING  | src.data_collection.news_crawler:parse:135 - ⚠️ 解析新闻失败: No module named 'jieba'
+2026-03-05 14:38:53.995 | WARNING  | src.data_collection.news_crawler:parse:135 - ⚠️ 解析新闻失败: No module named 'jieba'
+2026-03-05 14:38:53.996 | WARNING  | src.data_collection.news_crawler:parse:135 - ⚠️ 解析新闻失败: No module named 'jieba'
+2026-03-05 14:38:53.998 | WARNING  | src.data_collection.news_crawler:parse:135 - ⚠️ 解析新闻失败: No module named 'jieba'
+2026-03-05 14:38:53.998 | INFO     | src.data_collection.base_crawler:run:121 - ✅ 解析完成 0 条数据
+2026-03-05 14:38:53.999 | INFO     | src.data_collection.base_crawler:save:94 - ✅ 保存 0/0 条数据到 data\raw\news\newscrawler_20260305_143853.jsonl
+2026-03-05 14:38:53.999 | INFO     | src.data_collection.base_crawler:run:128 - ✅ 执行完成,耗时 0.21秒
+2026-03-05 14:38:54.001 | INFO     | __main__:collect_news:48 - ✅ 新闻采集完成: 0 条
+2026-03-05 14:38:54.001 | INFO     | __main__:collect_announcements:59 - ============================================================
+2026-03-05 14:38:54.002 | INFO     | __main__:collect_announcements:60 - 📄 开始采集公告数据
+2026-03-05 14:38:54.002 | INFO     | __main__:collect_announcements:61 - ============================================================
+2026-03-05 14:38:54.009 | INFO     | src.data_collection.base_crawler:run:109 - 🚀 开始执行 AnnouncementCrawler
+2026-03-05 14:38:54.010 | INFO     | src.data_collection.base_crawler:run:114 - 📥 正在获取数据...
+2026-03-05 14:38:54.010 | INFO     | src.data_collection.announcement_crawler:fetch:49 - 📄 获取公告: 2026-02-03 至 2026-03-05
+2026-03-05 14:38:54.010 | INFO     | src.data_collection.announcement_crawler:_fetch_all_announcements:79 - 📥 正在获取沪深市场公告...
+2026-03-05 14:38:59.756 | INFO     | src.data_collection.announcement_crawler:_fetch_all_announcements:92 - ✅ 获取到 0 条公告
+2026-03-05 14:38:59.756 | INFO     | src.data_collection.announcement_crawler:fetch:69 - ✅ 共获取 0 条公告
+2026-03-05 14:38:59.758 | INFO     | src.data_collection.base_crawler:run:116 - ✅ 获取到 0 条原始数据
+2026-03-05 14:38:59.758 | INFO     | src.data_collection.base_crawler:run:119 - 🔄 正在解析数据...
+2026-03-05 14:38:59.758 | INFO     | src.data_collection.base_crawler:run:121 - ✅ 解析完成 0 条数据
+2026-03-05 14:38:59.759 | INFO     | src.data_collection.base_crawler:save:94 - ✅ 保存 0/0 条数据到 data\raw\announcements\announcementcrawler_20260305_143859.jsonl
+2026-03-05 14:38:59.759 | INFO     | src.data_collection.base_crawler:run:128 - ✅ 执行完成,耗时 5.75秒
+2026-03-05 14:38:59.759 | INFO     | __main__:collect_announcements:74 - ✅ 公告采集完成: 0 条
+2026-03-05 14:38:59.761 | INFO     | __main__:generate_statistics:101 - ============================================================
+2026-03-05 14:38:59.762 | INFO     | __main__:generate_statistics:102 - 📊 数据统计
+2026-03-05 14:38:59.762 | INFO     | __main__:generate_statistics:103 - ============================================================
+2026-03-05 14:38:59.762 | INFO     | __main__:generate_statistics:106 - 新闻总数: 0
+2026-03-05 14:38:59.763 | INFO     | __main__:generate_statistics:118 - 
+公告总数: 0
+2026-03-05 14:38:59.763 | INFO     | __main__:generate_statistics:129 - ============================================================
+2026-03-05 14:38:59.763 | INFO     | __main__:main:222 - ✅ 所有采集任务完成!
+2026-03-05 14:38:59.763 | INFO     | __main__:main:225 - 
+📁 数据文件位置:
+2026-03-05 14:38:59.764 | INFO     | __main__:main:226 -   新闻: data\raw\news\*.jsonl
+2026-03-05 14:38:59.764 | INFO     | __main__:main:227 -   公告: data\raw\announcements\*.jsonl
+2026-03-05 14:44:35.099 | INFO     | src.data_collection.base_crawler:run:109 - 🚀 开始执行 NewsCrawler
+2026-03-05 14:44:35.099 | INFO     | src.data_collection.base_crawler:run:114 - 📥 正在获取数据...
+2026-03-05 14:44:35.099 | INFO     | src.data_collection.news_crawler:fetch:39 - 📰 正在获取东方财富新闻...
+2026-03-05 14:44:35.292 | INFO     | src.data_collection.news_crawler:fetch:46 - ✅ 获取到 10 条东方财富新闻
+2026-03-05 14:44:35.292 | INFO     | src.data_collection.news_crawler:fetch:53 - 📰 正在获取金十数据快讯...
+2026-03-05 14:44:35.292 | WARNING  | src.data_collection.news_crawler:fetch:62 - ⚠️ 获取金十数据失败: module 'akshare' has no attribute 'news_jinshi'
+2026-03-05 14:44:35.294 | INFO     | src.data_collection.news_crawler:fetch:83 - ✅ 筛选后剩余 8 条新闻
+2026-03-05 14:44:35.294 | INFO     | src.data_collection.base_crawler:run:116 - ✅ 获取到 8 条原始数据
+2026-03-05 14:44:35.296 | INFO     | src.data_collection.base_crawler:run:119 - 🔄 正在解析数据...
+2026-03-05 14:44:36.420 | INFO     | src.data_collection.base_crawler:run:121 - ✅ 解析完成 8 条数据
+2026-03-05 14:44:36.423 | INFO     | src.data_collection.base_crawler:save:94 - ✅ 保存 8/8 条数据到 data\raw\news\newscrawler_20260305_144436.jsonl
+2026-03-05 14:44:36.423 | INFO     | src.data_collection.base_crawler:run:128 - ✅ 执行完成,耗时 1.32秒
+2026-03-05 14:44:36.423 | INFO     | __main__:collect_news:48 - ✅ 新闻采集完成: 8 条
+2026-03-05 14:44:36.425 | INFO     | __main__:collect_announcements:59 - ============================================================
+2026-03-05 14:44:36.425 | INFO     | __main__:collect_announcements:60 - 📄 开始采集公告数据
+2026-03-05 14:44:36.425 | INFO     | __main__:collect_announcements:61 - ============================================================
+2026-03-05 14:44:36.429 | INFO     | src.data_collection.base_crawler:run:109 - 🚀 开始执行 AnnouncementCrawler
+2026-03-05 14:44:36.429 | INFO     | src.data_collection.base_crawler:run:114 - 📥 正在获取数据...
+2026-03-05 14:44:36.429 | INFO     | src.data_collection.announcement_crawler:fetch:49 - 📄 获取公告: 2026-02-03 至 2026-03-05
+2026-03-05 14:44:36.430 | INFO     | src.data_collection.announcement_crawler:_fetch_all_announcements:79 - 📥 正在获取沪深市场公告...
+2026-03-05 14:44:42.397 | INFO     | src.data_collection.announcement_crawler:_fetch_all_announcements:92 - ✅ 获取到 0 条公告
+2026-03-05 14:44:42.398 | INFO     | src.data_collection.announcement_crawler:fetch:69 - ✅ 共获取 0 条公告
+2026-03-05 14:44:42.400 | INFO     | src.data_collection.base_crawler:run:116 - ✅ 获取到 0 条原始数据
+2026-03-05 14:44:42.400 | INFO     | src.data_collection.base_crawler:run:119 - 🔄 正在解析数据...
+2026-03-05 14:44:42.400 | INFO     | src.data_collection.base_crawler:run:121 - ✅ 解析完成 0 条数据
+2026-03-05 14:44:42.404 | INFO     | src.data_collection.base_crawler:save:94 - ✅ 保存 0/0 条数据到 data\raw\announcements\announcementcrawler_20260305_144442.jsonl
+2026-03-05 14:44:42.405 | INFO     | src.data_collection.base_crawler:run:128 - ✅ 执行完成,耗时 5.98秒
+2026-03-05 14:44:42.405 | INFO     | __main__:collect_announcements:74 - ✅ 公告采集完成: 0 条
+2026-03-05 14:44:42.405 | INFO     | __main__:generate_statistics:101 - ============================================================
+2026-03-05 14:44:42.407 | INFO     | __main__:generate_statistics:102 - 📊 数据统计
+2026-03-05 14:44:42.407 | INFO     | __main__:generate_statistics:103 - ============================================================
+2026-03-05 14:44:42.408 | INFO     | __main__:generate_statistics:106 - 新闻总数: 8
+2026-03-05 14:44:42.408 | INFO     | __main__:generate_statistics:113 - 新闻分类分布:
+2026-03-05 14:44:42.408 | INFO     | __main__:generate_statistics:115 -   - 综合: 6
+2026-03-05 14:44:42.408 | INFO     | __main__:generate_statistics:115 -   - 股市: 1
+2026-03-05 14:44:42.408 | INFO     | __main__:generate_statistics:115 -   - 公司: 1
+2026-03-05 14:44:42.408 | INFO     | __main__:generate_statistics:118 - 
+公告总数: 0
+2026-03-05 14:44:42.410 | INFO     | __main__:generate_statistics:129 - ============================================================
+2026-03-05 14:44:42.410 | INFO     | __main__:main:222 - ✅ 所有采集任务完成!
+2026-03-05 14:44:42.412 | INFO     | __main__:main:225 - 
+📁 数据文件位置:
+2026-03-05 14:44:42.412 | INFO     | __main__:main:226 -   新闻: data\raw\news\*.jsonl
+2026-03-05 14:44:42.412 | INFO     | __main__:main:227 -   公告: data\raw\announcements\*.jsonl

@@ -1,0 +1,328 @@
+2026-03-05 14:38:54.009 | INFO     | src.data_collection.base_crawler:run:109 - 🚀 开始执行 AnnouncementCrawler
+2026-03-05 14:38:54.010 | INFO     | src.data_collection.base_crawler:run:114 - 📥 正在获取数据...
+2026-03-05 14:38:54.010 | INFO     | src.data_collection.announcement_crawler:fetch:49 - 📄 获取公告: 2026-02-03 至 2026-03-05
+2026-03-05 14:38:54.010 | INFO     | src.data_collection.announcement_crawler:_fetch_all_announcements:79 - 📥 正在获取沪深市场公告...
+2026-03-05 14:38:59.756 | INFO     | src.data_collection.announcement_crawler:_fetch_all_announcements:92 - ✅ 获取到 0 条公告
+2026-03-05 14:38:59.756 | INFO     | src.data_collection.announcement_crawler:fetch:69 - ✅ 共获取 0 条公告
+2026-03-05 14:38:59.758 | INFO     | src.data_collection.base_crawler:run:116 - ✅ 获取到 0 条原始数据
+2026-03-05 14:38:59.758 | INFO     | src.data_collection.base_crawler:run:119 - 🔄 正在解析数据...
+2026-03-05 14:38:59.758 | INFO     | src.data_collection.base_crawler:run:121 - ✅ 解析完成 0 条数据
+2026-03-05 14:38:59.759 | INFO     | src.data_collection.base_crawler:save:94 - ✅ 保存 0/0 条数据到 data\raw\announcements\announcementcrawler_20260305_143859.jsonl
+2026-03-05 14:38:59.759 | INFO     | src.data_collection.base_crawler:run:128 - ✅ 执行完成,耗时 5.75秒
+2026-03-05 14:38:59.759 | INFO     | __main__:collect_announcements:74 - ✅ 公告采集完成: 0 条
+2026-03-05 14:38:59.761 | INFO     | __main__:generate_statistics:101 - ============================================================
+2026-03-05 14:38:59.762 | INFO     | __main__:generate_statistics:102 - 📊 数据统计
+2026-03-05 14:38:59.762 | INFO     | __main__:generate_statistics:103 - ============================================================
+2026-03-05 14:38:59.762 | INFO     | __main__:generate_statistics:106 - 新闻总数: 0
+2026-03-05 14:38:59.763 | INFO     | __main__:generate_statistics:118 - 
+公告总数: 0
+2026-03-05 14:38:59.763 | INFO     | __main__:generate_statistics:129 - ============================================================
+2026-03-05 14:38:59.763 | INFO     | __main__:main:222 - ✅ 所有采集任务完成!
+2026-03-05 14:38:59.763 | INFO     | __main__:main:225 - 
+📁 数据文件位置:
+2026-03-05 14:38:59.764 | INFO     | __main__:main:226 -   新闻: data\raw\news\*.jsonl
+2026-03-05 14:38:59.764 | INFO     | __main__:main:227 -   公告: data\raw\announcements\*.jsonl
+2026-03-05 14:44:36.429 | INFO     | src.data_collection.base_crawler:run:109 - 🚀 开始执行 AnnouncementCrawler
+2026-03-05 14:44:36.429 | INFO     | src.data_collection.base_crawler:run:114 - 📥 正在获取数据...
+2026-03-05 14:44:36.429 | INFO     | src.data_collection.announcement_crawler:fetch:49 - 📄 获取公告: 2026-02-03 至 2026-03-05
+2026-03-05 14:44:36.430 | INFO     | src.data_collection.announcement_crawler:_fetch_all_announcements:79 - 📥 正在获取沪深市场公告...
+2026-03-05 14:44:42.397 | INFO     | src.data_collection.announcement_crawler:_fetch_all_announcements:92 - ✅ 获取到 0 条公告
+2026-03-05 14:44:42.398 | INFO     | src.data_collection.announcement_crawler:fetch:69 - ✅ 共获取 0 条公告
+2026-03-05 14:44:42.400 | INFO     | src.data_collection.base_crawler:run:116 - ✅ 获取到 0 条原始数据
+2026-03-05 14:44:42.400 | INFO     | src.data_collection.base_crawler:run:119 - 🔄 正在解析数据...
+2026-03-05 14:44:42.400 | INFO     | src.data_collection.base_crawler:run:121 - ✅ 解析完成 0 条数据
+2026-03-05 14:44:42.404 | INFO     | src.data_collection.base_crawler:save:94 - ✅ 保存 0/0 条数据到 data\raw\announcements\announcementcrawler_20260305_144442.jsonl
+2026-03-05 14:44:42.405 | INFO     | src.data_collection.base_crawler:run:128 - ✅ 执行完成,耗时 5.98秒
+2026-03-05 14:44:42.405 | INFO     | __main__:collect_announcements:74 - ✅ 公告采集完成: 0 条
+2026-03-05 14:44:42.405 | INFO     | __main__:generate_statistics:101 - ============================================================
+2026-03-05 14:44:42.407 | INFO     | __main__:generate_statistics:102 - 📊 数据统计
+2026-03-05 14:44:42.407 | INFO     | __main__:generate_statistics:103 - ============================================================
+2026-03-05 14:44:42.408 | INFO     | __main__:generate_statistics:106 - 新闻总数: 8
+2026-03-05 14:44:42.408 | INFO     | __main__:generate_statistics:113 - 新闻分类分布:
+2026-03-05 14:44:42.408 | INFO     | __main__:generate_statistics:115 -   - 综合: 6
+2026-03-05 14:44:42.408 | INFO     | __main__:generate_statistics:115 -   - 股市: 1
+2026-03-05 14:44:42.408 | INFO     | __main__:generate_statistics:115 -   - 公司: 1
+2026-03-05 14:44:42.408 | INFO     | __main__:generate_statistics:118 - 
+公告总数: 0
+2026-03-05 14:44:42.410 | INFO     | __main__:generate_statistics:129 - ============================================================
+2026-03-05 14:44:42.410 | INFO     | __main__:main:222 - ✅ 所有采集任务完成!
+2026-03-05 14:44:42.412 | INFO     | __main__:main:225 - 
+📁 数据文件位置:
+2026-03-05 14:44:42.412 | INFO     | __main__:main:226 -   新闻: data\raw\news\*.jsonl
+2026-03-05 14:44:42.412 | INFO     | __main__:main:227 -   公告: data\raw\announcements\*.jsonl
+2026-03-05 14:53:18.334 | INFO     | src.data_collection.base_crawler:run:109 - 🚀 开始执行 AnnouncementCrawler
+2026-03-05 14:53:18.336 | INFO     | src.data_collection.base_crawler:run:114 - 📥 正在获取数据...
+2026-03-05 14:53:18.336 | INFO     | src.data_collection.announcement_crawler:fetch:49 - 📄 获取公告: 2026-02-26 至 2026-03-05
+2026-03-05 14:53:18.336 | INFO     | src.data_collection.announcement_crawler:_fetch_all_announcements:79 - 📥 正在获取沪深市场公告... 日期范围：2026-02-26 至 2026-03-05
+2026-03-05 14:53:18.338 | ERROR    | src.data_collection.announcement_crawler:_fetch_all_announcements:111 - ❌ 获取所有公告失败: stock_notice_report() got an unexpected keyword argument 'start_date'
+2026-03-05 14:53:18.338 | INFO     | src.data_collection.announcement_crawler:fetch:69 - ✅ 共获取 0 条公告
+2026-03-05 14:53:18.338 | INFO     | src.data_collection.base_crawler:run:116 - ✅ 获取到 0 条原始数据
+2026-03-05 14:53:18.338 | INFO     | src.data_collection.base_crawler:run:119 - 🔄 正在解析数据...
+2026-03-05 14:53:18.338 | INFO     | src.data_collection.base_crawler:run:121 - ✅ 解析完成 0 条数据
+2026-03-05 14:53:18.340 | INFO     | src.data_collection.base_crawler:save:94 - ✅ 保存 0/0 条数据到 data\raw\announcements\announcementcrawler_20260305_145318.jsonl
+2026-03-05 14:53:18.341 | INFO     | src.data_collection.base_crawler:run:128 - ✅ 执行完成,耗时 0.00秒
+2026-03-05 14:53:18.341 | INFO     | __main__:collect_announcements:68 - ✅ 公告采集完成: 0 条
+2026-03-05 14:53:18.341 | INFO     | __main__:generate_statistics:95 - ============================================================
+2026-03-05 14:53:18.341 | INFO     | __main__:generate_statistics:96 - 📊 数据统计
+2026-03-05 14:53:18.342 | INFO     | __main__:generate_statistics:97 - ============================================================
+2026-03-05 14:53:18.343 | INFO     | __main__:generate_statistics:100 - 新闻总数: 0
+2026-03-05 14:53:18.343 | INFO     | __main__:generate_statistics:112 - 
+公告总数: 0
+2026-03-05 14:53:18.343 | INFO     | __main__:generate_statistics:123 - ============================================================
+2026-03-05 14:53:18.343 | INFO     | __main__:main:216 - ✅ 所有采集任务完成!
+2026-03-05 14:53:18.344 | INFO     | __main__:main:219 - 
+📁 数据文件位置:
+2026-03-05 14:53:18.344 | INFO     | __main__:main:220 -   新闻: data\raw\news\*.jsonl
+2026-03-05 14:53:18.344 | INFO     | __main__:main:221 -   公告: data\raw\announcements\*.jsonl
+2026-03-05 14:55:12.808 | INFO     | src.data_collection.base_crawler:run:109 - 🚀 开始执行 AnnouncementCrawler
+2026-03-05 14:55:12.808 | INFO     | src.data_collection.base_crawler:run:114 - 📥 正在获取数据...
+2026-03-05 14:55:12.808 | INFO     | src.data_collection.announcement_crawler:fetch:49 - 📄 获取公告: 2026-02-26 至 2026-03-05
+2026-03-05 14:55:12.810 | INFO     | src.data_collection.announcement_crawler:_fetch_all_announcements:79 - 📥 正在获取沪深市场公告... 日期范围：2026-02-26 至 2026-03-05
+2026-03-05 14:55:12.810 | DEBUG    | src.data_collection.announcement_crawler:_fetch_all_announcements:94 - 正在获取 20260226 的公告数据...
+2026-03-05 14:55:15.280 | DEBUG    | src.data_collection.announcement_crawler:_fetch_all_announcements:104 -   获取到 935 条
+2026-03-05 14:55:15.280 | DEBUG    | src.data_collection.announcement_crawler:_fetch_all_announcements:94 - 正在获取 20260227 的公告数据...
+2026-03-05 14:55:18.538 | DEBUG    | src.data_collection.announcement_crawler:_fetch_all_announcements:104 -   获取到 1317 条
+2026-03-05 14:55:18.538 | DEBUG    | src.data_collection.announcement_crawler:_fetch_all_announcements:94 - 正在获取 20260228 的公告数据...
+2026-03-05 14:55:23.153 | DEBUG    | src.data_collection.announcement_crawler:_fetch_all_announcements:104 -   获取到 1828 条
+2026-03-05 14:55:23.153 | DEBUG    | src.data_collection.announcement_crawler:_fetch_all_announcements:94 - 正在获取 20260301 的公告数据...
+2026-03-05 14:55:23.455 | DEBUG    | src.data_collection.announcement_crawler:_fetch_all_announcements:104 -   获取到 8 条
+2026-03-05 14:55:23.456 | DEBUG    | src.data_collection.announcement_crawler:_fetch_all_announcements:94 - 正在获取 20260302 的公告数据...
+2026-03-05 14:55:24.963 | DEBUG    | src.data_collection.announcement_crawler:_fetch_all_announcements:104 -   获取到 545 条
+2026-03-05 14:55:24.965 | DEBUG    | src.data_collection.announcement_crawler:_fetch_all_announcements:94 - 正在获取 20260303 的公告数据...
+2026-03-05 14:55:28.733 | DEBUG    | src.data_collection.announcement_crawler:_fetch_all_announcements:104 -   获取到 1576 条
+2026-03-05 14:55:28.735 | DEBUG    | src.data_collection.announcement_crawler:_fetch_all_announcements:94 - 正在获取 20260304 的公告数据...
+2026-03-05 14:55:31.231 | DEBUG    | src.data_collection.announcement_crawler:_fetch_all_announcements:104 -   获取到 981 条
+2026-03-05 14:55:31.231 | DEBUG    | src.data_collection.announcement_crawler:_fetch_all_announcements:94 - 正在获取 20260305 的公告数据...
+2026-03-05 14:55:33.202 | DEBUG    | src.data_collection.announcement_crawler:_fetch_all_announcements:104 -   获取到 683 条
+2026-03-05 14:55:33.202 | INFO     | src.data_collection.announcement_crawler:_fetch_all_announcements:116 - ✅ 共获取到 7873 条公告
+2026-03-05 14:55:33.202 | INFO     | src.data_collection.announcement_crawler:fetch:66 - ⚠️ 公告数量超过限制,截断至 5000
+2026-03-05 14:55:33.204 | INFO     | src.data_collection.announcement_crawler:fetch:69 - ✅ 共获取 5000 条公告
+2026-03-05 14:55:33.207 | INFO     | src.data_collection.base_crawler:run:116 - ✅ 获取到 5000 条原始数据
+2026-03-05 14:55:33.207 | INFO     | src.data_collection.base_crawler:run:119 - 🔄 正在解析数据...
+2026-03-05 14:55:33.350 | INFO     | src.data_collection.base_crawler:run:121 - ✅ 解析完成 5000 条数据
+2026-03-05 14:55:33.412 | INFO     | src.data_collection.base_crawler:save:94 - ✅ 保存 5000/5000 条数据到 data\raw\announcements\announcementcrawler_20260305_145533.jsonl
+2026-03-05 14:55:33.412 | INFO     | src.data_collection.base_crawler:run:128 - ✅ 执行完成,耗时 20.60秒
+2026-03-05 14:55:33.414 | INFO     | __main__:collect_announcements:68 - ✅ 公告采集完成: 5000 条
+2026-03-05 14:55:33.415 | INFO     | __main__:generate_statistics:95 - ============================================================
+2026-03-05 14:55:33.415 | INFO     | __main__:generate_statistics:96 - 📊 数据统计
+2026-03-05 14:55:33.415 | INFO     | __main__:generate_statistics:97 - ============================================================
+2026-03-05 14:55:33.415 | INFO     | __main__:generate_statistics:100 - 新闻总数: 0
+2026-03-05 14:55:33.415 | INFO     | __main__:generate_statistics:112 - 
+公告总数: 5000
+2026-03-05 14:55:33.418 | INFO     | __main__:generate_statistics:119 - 公告类型分布:
+2026-03-05 14:55:33.418 | INFO     | __main__:generate_statistics:121 -   - 业绩快报: 817
+2026-03-05 14:55:33.419 | INFO     | __main__:generate_statistics:121 -   - 其他: 545
+2026-03-05 14:55:33.420 | INFO     | __main__:generate_statistics:121 -   - 法律意见书: 332
+2026-03-05 14:55:33.420 | INFO     | __main__:generate_statistics:121 -   - 股东大会决议公告: 258
+2026-03-05 14:55:33.421 | INFO     | __main__:generate_statistics:121 -   - 高管人员任职变动: 257
+2026-03-05 14:55:33.421 | INFO     | __main__:generate_statistics:121 -   - 董事会决议公告: 168
+2026-03-05 14:55:33.421 | INFO     | __main__:generate_statistics:121 -   - 保荐/核查意见: 167
+2026-03-05 14:55:33.421 | INFO     | __main__:generate_statistics:121 -   - 调研活动: 133
+2026-03-05 14:55:33.422 | INFO     | __main__:generate_statistics:121 -   - 股东/实际控制人股份减持: 130
+2026-03-05 14:55:33.422 | INFO     | __main__:generate_statistics:121 -   - 召开股东大会通知: 103
+2026-03-05 14:55:33.422 | INFO     | __main__:generate_statistics:121 -   - 提供/对外担保公告: 101
+2026-03-05 14:55:33.422 | INFO     | __main__:generate_statistics:121 -   - 股票交易异常波动: 95
+2026-03-05 14:55:33.423 | INFO     | __main__:generate_statistics:121 -   - 投资理财: 94
+2026-03-05 14:55:33.423 | INFO     | __main__:generate_statistics:121 -   - 管理办法/制度: 87
+2026-03-05 14:55:33.423 | INFO     | __main__:generate_statistics:121 -   - 权益变动报告书: 80
+2026-03-05 14:55:33.424 | INFO     | __main__:generate_statistics:121 -   - 专项说明/独立意见: 73
+2026-03-05 14:55:33.424 | INFO     | __main__:generate_statistics:121 -   - 股份质押、冻结: 61
+2026-03-05 14:55:33.424 | INFO     | __main__:generate_statistics:121 -   - 回购进展情况: 61
+2026-03-05 14:55:33.426 | INFO     | __main__:generate_statistics:121 -   - 关联交易: 57
+2026-03-05 14:55:33.426 | INFO     | __main__:generate_statistics:121 -   - 公司关联方基本资料变更: 49
+2026-03-05 14:55:33.426 | INFO     | __main__:generate_statistics:121 -   - 独立董事述职报告: 47
+2026-03-05 14:55:33.426 | INFO     | __main__:generate_statistics:121 -   - 其他增发事项公告: 40
+2026-03-05 14:55:33.427 | INFO     | __main__:generate_statistics:121 -   - 募集资金使用进展情况: 36
+2026-03-05 14:55:33.427 | INFO     | __main__:generate_statistics:121 -   - 获得认证: 35
+2026-03-05 14:55:33.427 | INFO     | __main__:generate_statistics:121 -   - 诉讼仲裁: 35
+2026-03-05 14:55:33.427 | INFO     | __main__:generate_statistics:121 -   - 股东大会资料: 32
+2026-03-05 14:55:33.429 | INFO     | __main__:generate_statistics:121 -   - 员工持股计划: 29
+2026-03-05 14:55:33.429 | INFO     | __main__:generate_statistics:121 -   - 签订协议: 28
+2026-03-05 14:55:33.429 | INFO     | __main__:generate_statistics:121 -   - 独立董事候选人声明: 28
+2026-03-05 14:55:33.429 | INFO     | __main__:generate_statistics:121 -   - 其它风险提示公告: 28
+2026-03-05 14:55:33.431 | INFO     | __main__:generate_statistics:121 -   - 公司章程: 27
+2026-03-05 14:55:33.431 | INFO     | __main__:generate_statistics:121 -   - 审计报告: 27
+2026-03-05 14:55:33.432 | INFO     | __main__:generate_statistics:121 -   - 限售股份上市流通: 27
+2026-03-05 14:55:33.432 | INFO     | __main__:generate_statistics:121 -   - 议事规则/实施细则: 27
+2026-03-05 14:55:33.433 | INFO     | __main__:generate_statistics:121 -   - 独立董事提名人声明: 26
+2026-03-05 14:55:33.433 | INFO     | __main__:generate_statistics:121 -   - 保荐代表人（机构）变更: 25
+2026-03-05 14:55:33.433 | INFO     | __main__:generate_statistics:121 -   - 分配预案: 25
+2026-03-05 14:55:33.434 | INFO     | __main__:generate_statistics:121 -   - 风险提示性公告: 23
+2026-03-05 14:55:33.434 | INFO     | __main__:generate_statistics:121 -   - 增发预案: 22
+2026-03-05 14:55:33.435 | INFO     | __main__:generate_statistics:121 -   - 公司注册资本变更: 22
+2026-03-05 14:55:33.435 | INFO     | __main__:generate_statistics:121 -   - 审计机构变更: 22
+2026-03-05 14:55:33.435 | INFO     | __main__:generate_statistics:121 -   - 重大合同: 20
+2026-03-05 14:55:33.435 | INFO     | __main__:generate_statistics:121 -   - 回复问询函公告: 19
+2026-03-05 14:55:33.436 | INFO     | __main__:generate_statistics:121 -   - 自查报告: 19
+2026-03-05 14:55:33.437 | INFO     | __main__:generate_statistics:121 -   - 募集资金使用情况报告: 18
+2026-03-05 14:55:33.437 | INFO     | __main__:generate_statistics:121 -   - 收购出售资产/股权: 18
+2026-03-05 14:55:33.437 | INFO     | __main__:generate_statistics:121 -   - 公司章程修订: 17
+2026-03-05 14:55:33.438 | INFO     | __main__:generate_statistics:121 -   - 股本变动: 16
+2026-03-05 14:55:33.438 | INFO     | __main__:generate_statistics:121 -   - 股权激励进展公告: 15
+2026-03-05 14:55:33.439 | INFO     | __main__:generate_statistics:121 -   - 其他担保公告: 15
+2026-03-05 14:55:33.439 | INFO     | __main__:generate_statistics:121 -   - 年度报告摘要: 15
+2026-03-05 14:55:33.439 | INFO     | __main__:generate_statistics:121 -   - 委托（受托）事项: 15
+2026-03-05 14:55:33.439 | INFO     | __main__:generate_statistics:121 -   - 年度报告全文: 14
+2026-03-05 14:55:33.439 | INFO     | __main__:generate_statistics:121 -   - 获得补贴（资助）: 13
+2026-03-05 14:55:33.440 | INFO     | __main__:generate_statistics:121 -   - 借贷: 13
+2026-03-05 14:55:33.440 | INFO     | __main__:generate_statistics:121 -   - 股东/实际控制人股份增持: 13
+2026-03-05 14:55:33.440 | INFO     | __main__:generate_statistics:121 -   - 召开股东大会提示性公告: 12
+2026-03-05 14:55:33.440 | INFO     | __main__:generate_statistics:121 -   - 股权转让: 12
+2026-03-05 14:55:33.440 | INFO     | __main__:generate_statistics:121 -   - 股权激励计划: 12
+2026-03-05 14:55:33.442 | INFO     | __main__:generate_statistics:121 -   - 终止上市风险提示: 12
+2026-03-05 14:55:33.442 | INFO     | __main__:generate_statistics:121 -   - 内部控制报告: 12
+2026-03-05 14:55:33.442 | INFO     | __main__:generate_statistics:121 -   - 上市保荐书: 11
+2026-03-05 14:55:33.443 | INFO     | __main__:generate_statistics:121 -   - 重组进展公告: 11
+2026-03-05 14:55:33.443 | INFO     | __main__:generate_statistics:121 -   - 对外项目投资: 11
+2026-03-05 14:55:33.443 | INFO     | __main__:generate_statistics:121 -   - 停牌公告: 11
+2026-03-05 14:55:33.445 | INFO     | __main__:generate_statistics:121 -   - 变更募集资金投资项目: 11
+2026-03-05 14:55:33.445 | INFO     | __main__:generate_statistics:121 -   - 投资设立公司: 11
+2026-03-05 14:55:33.445 | INFO     | __main__:generate_statistics:121 -   - 增发提示性公告: 10
+2026-03-05 14:55:33.445 | INFO     | __main__:generate_statistics:121 -   - 增资扩股: 10
+2026-03-05 14:55:33.445 | INFO     | __main__:generate_statistics:121 -   - 归还募集资金: 10
+2026-03-05 14:55:33.445 | INFO     | __main__:generate_statistics:121 -   - 发行保荐书: 9
+2026-03-05 14:55:33.447 | INFO     | __main__:generate_statistics:121 -   - 会计师事务所问询函回复公告: 9
+2026-03-05 14:55:33.447 | INFO     | __main__:generate_statistics:121 -   - 募集资金补充流动资金: 8
+2026-03-05 14:55:33.447 | INFO     | __main__:generate_statistics:121 -   - 股权激励计划摘要: 8
+2026-03-05 14:55:33.448 | INFO     | __main__:generate_statistics:121 -   - 月度经营情况: 8
+2026-03-05 14:55:33.449 | INFO     | __main__:generate_statistics:121 -   - 公司经营范围变更: 8
+2026-03-05 14:55:33.449 | INFO     | __main__:generate_statistics:121 -   - 资金占用: 8
+2026-03-05 14:55:33.450 | INFO     | __main__:generate_statistics:121 -   - 高管人员持股变动: 7
+2026-03-05 14:55:33.450 | INFO     | __main__:generate_statistics:121 -   - 业绩预告: 7
+2026-03-05 14:55:33.450 | INFO     | __main__:generate_statistics:121 -   - 增发获准公告: 6
+2026-03-05 14:55:33.450 | INFO     | __main__:generate_statistics:121 -   - 担保年度额度预计: 6
+2026-03-05 14:55:33.451 | INFO     | __main__:generate_statistics:121 -   - 北交所上市审核会议公告: 5
+2026-03-05 14:55:33.452 | INFO     | __main__:generate_statistics:121 -   - 处罚: 5
+2026-03-05 14:55:33.452 | INFO     | __main__:generate_statistics:121 -   - 回购报告书: 5
+2026-03-05 14:55:33.452 | INFO     | __main__:generate_statistics:121 -   - 复牌公告: 5
+2026-03-05 14:55:33.453 | INFO     | __main__:generate_statistics:121 -   - 分配方案实施: 5
+2026-03-05 14:55:33.453 | INFO     | __main__:generate_statistics:121 -   - 做市商变动: 5
+2026-03-05 14:55:33.453 | INFO     | __main__:generate_statistics:121 -   - 创业板再融资问询与回复: 5
+2026-03-05 14:55:33.453 | INFO     | __main__:generate_statistics:121 -   - 三季度报告全文: 4
+2026-03-05 14:55:33.454 | INFO     | __main__:generate_statistics:121 -   - 询价转让核查报告/意见: 4
+2026-03-05 14:55:33.455 | INFO     | __main__:generate_statistics:121 -   - 违法违规: 4
+2026-03-05 14:55:33.455 | INFO     | __main__:generate_statistics:121 -   - 回购预案: 4
+2026-03-05 14:55:33.456 | INFO     | __main__:generate_statistics:121 -   - 创业板再融资募集说明书申报稿: 4
+2026-03-05 14:55:33.456 | INFO     | __main__:generate_statistics:121 -   - 股权激励其他事项公告: 4
+2026-03-05 14:55:33.456 | INFO     | __main__:generate_statistics:121 -   - 股权激励对象名单: 4
+2026-03-05 14:55:33.457 | INFO     | __main__:generate_statistics:121 -   - 股权激励行权价（数量）调整: 4
+2026-03-05 14:55:33.457 | INFO     | __main__:generate_statistics:121 -   - 询价转让计划书: 3
+2026-03-05 14:55:33.457 | INFO     | __main__:generate_statistics:121 -   - 法定代表人变更: 3
+2026-03-05 14:55:33.457 | INFO     | __main__:generate_statistics:121 -   - 创业板再融资上市保荐书申报稿: 3
+2026-03-05 14:55:33.458 | INFO     | __main__:generate_statistics:121 -   - 创业板再融资发行保荐书申报稿: 3
+2026-03-05 14:55:33.458 | INFO     | __main__:generate_statistics:121 -   - 会计差错更正公告: 3
+2026-03-05 14:55:33.458 | INFO     | __main__:generate_statistics:121 -   - 深主板并购重组独立财务顾问报告: 3
+2026-03-05 14:55:33.458 | INFO     | __main__:generate_statistics:121 -   - 深主板并购重组报告书申报稿: 3
+2026-03-05 14:55:33.460 | INFO     | __main__:generate_statistics:121 -   - 深交所股票监管函: 3
+2026-03-05 14:55:33.460 | INFO     | __main__:generate_statistics:121 -   - 整改报告: 3
+2026-03-05 14:55:33.460 | INFO     | __main__:generate_statistics:121 -   - 分配方案决议公告: 3
+2026-03-05 14:55:33.460 | INFO     | __main__:generate_statistics:121 -   - 年度财务报告: 3
+2026-03-05 14:55:33.461 | INFO     | __main__:generate_statistics:121 -   - 申请撤销风险警示及特别处理: 3
+2026-03-05 14:55:33.461 | INFO     | __main__:generate_statistics:121 -   - 通知债权人公告: 3
+2026-03-05 14:55:33.461 | INFO     | __main__:generate_statistics:121 -   - 三季度报告更正公告: 2
+2026-03-05 14:55:33.461 | INFO     | __main__:generate_statistics:121 -   - 首发发行结果公告: 2
+2026-03-05 14:55:33.461 | INFO     | __main__:generate_statistics:121 -   - 深主板发行上市审核注册结果通知: 2
+2026-03-05 14:55:33.463 | INFO     | __main__:generate_statistics:121 -   - 股东/实际控制人变更: 2
+2026-03-05 14:55:33.464 | INFO     | __main__:generate_statistics:121 -   - 监管工作函回复公告: 2
+2026-03-05 14:55:33.464 | INFO     | __main__:generate_statistics:121 -   - 回购方案修订: 2
+2026-03-05 14:55:33.466 | INFO     | __main__:generate_statistics:121 -   - 公司名称变更: 2
+2026-03-05 14:55:33.466 | INFO     | __main__:generate_statistics:121 -   - 终止上市: 2
+2026-03-05 14:55:33.466 | INFO     | __main__:generate_statistics:121 -   - 上交所股票通报批评: 2
+2026-03-05 14:55:33.467 | INFO     | __main__:generate_statistics:121 -   - 创业板再融资审计报告申报稿: 2
+2026-03-05 14:55:33.467 | INFO     | __main__:generate_statistics:121 -   - 创业板再融资法律意见书申报稿: 2
+2026-03-05 14:55:33.467 | INFO     | __main__:generate_statistics:121 -   - 年度报告更正公告: 2
+2026-03-05 14:55:33.467 | INFO     | __main__:generate_statistics:121 -   - 科创板发行上市审核上市委会议公告: 2
+2026-03-05 14:55:33.467 | INFO     | __main__:generate_statistics:121 -   - 深主板并购重组资产评估报告: 2
+2026-03-05 14:55:33.469 | INFO     | __main__:generate_statistics:121 -   - 深主板并购重组法律意见书: 2
+2026-03-05 14:55:33.469 | INFO     | __main__:generate_statistics:121 -   - 沪主板发行上市问询与回复: 2
+2026-03-05 14:55:33.469 | INFO     | __main__:generate_statistics:121 -   - 创业板IPO问询与回复: 2
+2026-03-05 14:55:33.469 | INFO     | __main__:generate_statistics:121 -   - ESG公告: 2
+2026-03-05 14:55:33.470 | INFO     | __main__:generate_statistics:121 -   - 实施退市风险警示: 2
+2026-03-05 14:55:33.470 | INFO     | __main__:generate_statistics:121 -   - 股权激励行权结果: 2
+2026-03-05 14:55:33.470 | INFO     | __main__:generate_statistics:121 -   - 增发上市公告书: 2
+2026-03-05 14:55:33.470 | INFO     | __main__:generate_statistics:121 -   - 增发终止: 2
+2026-03-05 14:55:33.470 | INFO     | __main__:generate_statistics:121 -   - 创业板再融资募集说明书注册稿: 2
+2026-03-05 14:55:33.472 | INFO     | __main__:generate_statistics:121 -   - 深主板再融资募集说明书注册稿: 2
+2026-03-05 14:55:33.472 | INFO     | __main__:generate_statistics:121 -   - 公司办公地址变更: 2
+2026-03-05 14:55:33.472 | INFO     | __main__:generate_statistics:121 -   - 一季度报告全文: 2
+2026-03-05 14:55:33.473 | INFO     | __main__:generate_statistics:121 -   - 半年度报告全文: 2
+2026-03-05 14:55:33.473 | INFO     | __main__:generate_statistics:121 -   - 社会责任报告: 2
+2026-03-05 14:55:33.473 | INFO     | __main__:generate_statistics:121 -   - 债务重组: 2
+2026-03-05 14:55:33.473 | INFO     | __main__:generate_statistics:121 -   - 公司注册地址变更: 2
+2026-03-05 14:55:33.475 | INFO     | __main__:generate_statistics:121 -   - 增发方案修订: 2
+2026-03-05 14:55:33.475 | INFO     | __main__:generate_statistics:121 -   - 终止上市提示公告: 2
+2026-03-05 14:55:33.475 | INFO     | __main__:generate_statistics:121 -   - 首发提示性公告: 2
+2026-03-05 14:55:33.475 | INFO     | __main__:generate_statistics:121 -   - 首发上市公告书: 2
+2026-03-05 14:55:33.477 | INFO     | __main__:generate_statistics:121 -   - 沪主板并购重组报告书申报稿: 1
+2026-03-05 14:55:33.477 | INFO     | __main__:generate_statistics:121 -   - 辅导工作总结报告: 1
+2026-03-05 14:55:33.477 | INFO     | __main__:generate_statistics:121 -   - 上交所并购重组委会议公告: 1
+2026-03-05 14:55:33.477 | INFO     | __main__:generate_statistics:121 -   - 沪主板并购重组资产评估报告: 1
+2026-03-05 14:55:33.478 | INFO     | __main__:generate_statistics:121 -   - 沪主板并购重组审计报告: 1
+2026-03-05 14:55:33.479 | INFO     | __main__:generate_statistics:121 -   - 沪主板并购重组法律意见书: 1
+2026-03-05 14:55:33.480 | INFO     | __main__:generate_statistics:121 -   - 沪主板并购重组独立财务顾问报告: 1
+2026-03-05 14:55:33.480 | INFO     | __main__:generate_statistics:121 -   - 深主板发行上市问询与回复: 1
+2026-03-05 14:55:33.480 | INFO     | __main__:generate_statistics:121 -   - 取消股东大会议案: 1
+2026-03-05 14:55:33.480 | INFO     | __main__:generate_statistics:121 -   - 网上申购及中签率公告: 1
+2026-03-05 14:55:33.481 | INFO     | __main__:generate_statistics:121 -   - 延期回复问询函公告: 1
+2026-03-05 14:55:33.482 | INFO     | __main__:generate_statistics:121 -   - 深主板再融资审计报告: 1
+2026-03-05 14:55:33.482 | INFO     | __main__:generate_statistics:121 -   - 深主板再融资募集说明书申报稿: 1
+2026-03-05 14:55:33.482 | INFO     | __main__:generate_statistics:121 -   - 深主板再融资发行保荐书: 1
+2026-03-05 14:55:33.482 | INFO     | __main__:generate_statistics:121 -   - 深主板再融资上市保荐书: 1
+2026-03-05 14:55:33.483 | INFO     | __main__:generate_statistics:121 -   - 深主板再融资法律意见书: 1
+2026-03-05 14:55:33.483 | INFO     | __main__:generate_statistics:121 -   - 创业板发行上市审核上市委会议公告: 1
+2026-03-05 14:55:33.483 | INFO     | __main__:generate_statistics:121 -   - 科创板发行上市发行保荐书: 1
+2026-03-05 14:55:33.484 | INFO     | __main__:generate_statistics:121 -   - 科创板发行上市上市保荐书: 1
+2026-03-05 14:55:33.484 | INFO     | __main__:generate_statistics:121 -   - 科创板发行上市招股说明书上会稿: 1
+2026-03-05 14:55:33.484 | INFO     | __main__:generate_statistics:121 -   - 科创板发行上市法律意见书: 1
+2026-03-05 14:55:33.486 | INFO     | __main__:generate_statistics:121 -   - 科创板发行上市审计报告: 1
+2026-03-05 14:55:33.486 | INFO     | __main__:generate_statistics:121 -   - 深主板发行上市审核上市委会议公告: 1
+2026-03-05 14:55:33.486 | INFO     | __main__:generate_statistics:121 -   - 北交所上市审核会议结果: 1
+2026-03-05 14:55:33.486 | INFO     | __main__:generate_statistics:121 -   - 上交所股票公开谴责: 1
+2026-03-05 14:55:33.488 | INFO     | __main__:generate_statistics:121 -   - 科创板并购重组独立财务顾问报告: 1
+2026-03-05 14:55:33.488 | INFO     | __main__:generate_statistics:121 -   - 科创板并购重组法律意见书: 1
+2026-03-05 14:55:33.488 | INFO     | __main__:generate_statistics:121 -   - 科创板并购重组资产评估报告: 1
+2026-03-05 14:55:33.488 | INFO     | __main__:generate_statistics:121 -   - 科创板并购重组审计报告: 1
+2026-03-05 14:55:33.488 | INFO     | __main__:generate_statistics:121 -   - 科创板并购重组报告书申报稿: 1
+2026-03-05 14:55:33.488 | INFO     | __main__:generate_statistics:121 -   - 创业板IPO发行保荐书申报稿: 1
+2026-03-05 14:55:33.489 | INFO     | __main__:generate_statistics:121 -   - 创业板IPO招股说明书申报稿: 1
+2026-03-05 14:55:33.489 | INFO     | __main__:generate_statistics:121 -   - 创业板IPO上市保荐书申报稿: 1
+2026-03-05 14:55:33.489 | INFO     | __main__:generate_statistics:121 -   - 深主板并购重组审计报告: 1
+2026-03-05 14:55:33.489 | INFO     | __main__:generate_statistics:121 -   - 深主板发行上市发行保荐书: 1
+2026-03-05 14:55:33.489 | INFO     | __main__:generate_statistics:121 -   - 深主板发行上市上市保荐书: 1
+2026-03-05 14:55:33.491 | INFO     | __main__:generate_statistics:121 -   - 创业板重大资产重组审计报告申报稿: 1
+2026-03-05 14:55:33.491 | INFO     | __main__:generate_statistics:121 -   - 创业板重大资产重组报告书申报稿: 1
+2026-03-05 14:55:33.491 | INFO     | __main__:generate_statistics:121 -   - 深主板发行上市招股说明书上会稿: 1
+2026-03-05 14:55:33.492 | INFO     | __main__:generate_statistics:121 -   - 创业板重大资产重组独立财务顾问报告申报稿: 1
+2026-03-05 14:55:33.492 | INFO     | __main__:generate_statistics:121 -   - 创业板重大资产重组法律意见书申报稿: 1
+2026-03-05 14:55:33.492 | INFO     | __main__:generate_statistics:121 -   - 辅导企业基本情况: 1
+2026-03-05 14:55:33.492 | INFO     | __main__:generate_statistics:121 -   - 网上摇号中签结果公告: 1
+2026-03-05 14:55:33.494 | INFO     | __main__:generate_statistics:121 -   - 网下中签及配售结果公告: 1
+2026-03-05 14:55:33.494 | INFO     | __main__:generate_statistics:121 -   - 问询函其他公告: 1
+2026-03-05 14:55:33.495 | INFO     | __main__:generate_statistics:121 -   - 科创板再融资募集说明书注册稿: 1
+2026-03-05 14:55:33.495 | INFO     | __main__:generate_statistics:121 -   - 产品价格调整: 1
+2026-03-05 14:55:33.495 | INFO     | __main__:generate_statistics:121 -   - 沪主板再融资募集说明书注册稿: 1
+2026-03-05 14:55:33.495 | INFO     | __main__:generate_statistics:121 -   - 增发发行结果公告: 1
+2026-03-05 14:55:33.495 | INFO     | __main__:generate_statistics:121 -   - 询价转让定价情况提示性公告: 1
+2026-03-05 14:55:33.497 | INFO     | __main__:generate_statistics:121 -   - 半年度报告摘要: 1
+2026-03-05 14:55:33.497 | INFO     | __main__:generate_statistics:121 -   - 公司其他基本信息变更: 1
+2026-03-05 14:55:33.497 | INFO     | __main__:generate_statistics:121 -   - 延期披露定报公告: 1
+2026-03-05 14:55:33.497 | INFO     | __main__:generate_statistics:121 -   - 股改进展公告: 1
+2026-03-05 14:55:33.498 | INFO     | __main__:generate_statistics:121 -   - 取消股东大会公告: 1
+2026-03-05 14:55:33.498 | INFO     | __main__:generate_statistics:121 -   - 上交所股票监管工作函: 1
+2026-03-05 14:55:33.498 | INFO     | __main__:generate_statistics:121 -   - 要约收购报告书: 1
+2026-03-05 14:55:33.498 | INFO     | __main__:generate_statistics:121 -   - 深交所融资融券公告: 1
+2026-03-05 14:55:33.498 | INFO     | __main__:generate_statistics:121 -   - 回购实施公告: 1
+2026-03-05 14:55:33.500 | INFO     | __main__:generate_statistics:121 -   - 科创板再融资法律意见书: 1
+2026-03-05 14:55:33.500 | INFO     | __main__:generate_statistics:121 -   - 深主板发行上市审核委会议结果公告: 1
+2026-03-05 14:55:33.500 | INFO     | __main__:generate_statistics:121 -   - 科创板再融资审计报告: 1
+2026-03-05 14:55:33.500 | INFO     | __main__:generate_statistics:121 -   - 科创板再融资募集说明书申报稿: 1
+2026-03-05 14:55:33.500 | INFO     | __main__:generate_statistics:121 -   - 科创板再融资发行保荐书: 1
+2026-03-05 14:55:33.502 | INFO     | __main__:generate_statistics:121 -   - 科创板再融资上市保荐书: 1
+2026-03-05 14:55:33.502 | INFO     | __main__:generate_statistics:121 -   - 资产重组债权人会议: 1
+2026-03-05 14:55:33.502 | INFO     | __main__:generate_statistics:121 -   - 创业板发行上市审核注册结果通知: 1
+2026-03-05 14:55:33.502 | INFO     | __main__:generate_statistics:123 - ============================================================
+2026-03-05 14:55:33.502 | INFO     | __main__:main:216 - ✅ 所有采集任务完成!
+2026-03-05 14:55:33.502 | INFO     | __main__:main:219 - 
+📁 数据文件位置:
+2026-03-05 14:55:33.503 | INFO     | __main__:main:220 -   新闻: data\raw\news\*.jsonl
+2026-03-05 14:55:33.503 | INFO     | __main__:main:221 -   公告: data\raw\announcements\*.jsonl
